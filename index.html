@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ig</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: black;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        .container {
+            height: 667px;
+            width: 375px;
+            box-sizing: border-box;
+            /* border: 1px solid white; */
+        }
+
+        .name-app {
+            margin-bottom: 40px;
+            /* margin-top: 80px; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid white; */
+        }
+
+        .name-app img {
+            width: 50%;
+            display: block;
+            /* border: 1px solid white; */
+        }
+
+        .profile {
+            width: 100%;
+            box-sizing: border-box;
+            color: white;
+            margin-top: 10px;
+            /* border: 1px solid white; */
+        }
+
+        .prof-name {
+            text-align: center;
+            margin-top: 15px;
+            /* border: 1px solid white; */
+        }
+
+        .prof-name p {
+            font-weight: 700;
+            color: grey;
+        }
+
+        .prof-cont {
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            /* border: 1px solid white; */
+        }
+
+        .profile-img {
+            width: 50%;
+            box-sizing: border-box;
+            /* border: 1px solid white; */
+        }
+
+        .profile .profile-img .img {
+            height: 100px;
+            width: 100px;
+            margin: 0 auto;
+            border-radius: 100%;
+            background-color: white;
+            /* border: 1px solid white; */
+        }
+
+        .btn-log {
+            margin: 0 auto;
+            width: 90%;
+            /* border: 1px solid yellow; */
+        }
+
+        .btn {
+            /* width: 90%; */
+            /* border: 1px solid yellow; */
+        }
+
+        .btn-cont {
+            width: 100%;
+            margin-top: 20px;
+            justify-content: center;
+            display: flex;
+            /* display: flex; */
+            box-sizing: border-box;
+        }
+
+        .btn button {
+            width: 100%;
+            border-radius: 5px;
+            font-weight: 800;
+            text-transform: capitalize;
+            display: block;
+            padding: 12px;
+            border: none;
+            /* background-color: blue; */
+        }
+
+        .btn.login button {
+            background-color: rgb(59, 77, 240);
+            color: white;
+
+        }
+
+        .btn.delete button {
+            /* text-decoration: none; */
+            background-color: black;
+            /* background-color: rgb(59, 77, 240); */
+            color: rgb(59, 77, 240);
+
+        }
+
+        .cont-all {
+            width: 100%;
+            box-sizing: border-box;
+            position: fixed;
+            bottom: 170px;
+        }
+    </style>
+    <div class="container">
+        <div class="cont-all">
+            <div class="name-app">
+                <img src="/img/logoinsta-white.png" alt="">
+            </div>
+
+            <div class="profile">
+                <div class="prof-cont">
+                    <div class="profile-img">
+                        <div class="img"></div>
+                        <div class="prof-name">
+                            <p>nizarnnarendra</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-cont">
+                    <div class="btn-log">
+                        <div class="btn login">
+                            <button>masuk</button>
+                        </div>
+
+                        <div class="btn delete">
+                            <button>hapus</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <style>
+            .bottom {
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+                /* margin-top: 20px; */
+                box-sizing: border-box;
+                display: flex;
+                /* border: 1px solid white; */
+            }
+
+            .botm {
+                width: 50%;
+                padding: 15px;
+                text-align: center;
+                /* border: 1px solid grey; */
+            }
+
+            .botm p {
+                text-transform: capitalize;
+                font-weight: 700;
+                color: #3b4df0;
+
+            }
+
+            .botm.switch {
+                border-top: 1px solid #80808046;
+                /* border-ri: 1px solid #80808046; */
+                /* background-color: ; */
+            }
+
+            .botm.daftar {
+                border-top: 1px solid #80808046;
+                border-left: 1px solid #80808046;
+            }
+        </style>
+        <div class="bottom">
+            <div class="botm switch">
+                <p>beralih akun</p>
+            </div>
+
+            <div class="botm daftar">
+                <p>daftar</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
